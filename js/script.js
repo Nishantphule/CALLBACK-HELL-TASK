@@ -1,3 +1,8 @@
+let contentBox = document.createElement("div")
+contentBox.classList = "box";
+contentBox.id = "count";
+
+document.querySelector(".container").appendChild(contentBox);
 
 let content = document.getElementById("count")
 
